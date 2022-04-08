@@ -1,0 +1,107 @@
+OASIS, Copyright (C) 2021-2022 Naver Corporation, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.
+
+A summary of the CC BY-NC-SA 4.0 license is located here:
+	https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The CC BY-NC-SA 4.0 license is located here:
+	https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+
+**************************************************************************
+SEE NOTICES BELOW CONCERNING SOFTWARE FILES (PART 1) AND DATASETS (PART 2):
+**************************************************************************
+
+-----------------------------------------------------------------------
+PART 1: SEE NOTICES BELOW WITH RESPECT TO THE FOLLOWING SOFTWARE FILES:
+-----------------------------------------------------------------------
+(A) /deeplab.py, 
+(B) /dataset/cityscapes_dataset.py, 
+(C) /dataset/gta5_dataset.py,
+(D) /metrics_helpers.py,
+(E) /train_on_source.py,
+(F) /image_helpers.py,
+(G) /dataset/cityscapes_list/info.json,
+(H) /dataset/gta5_list/train.txt.
+(I) /utils/loss.py.
+(J) /style-transfer/utils/core.py
+(K) /style-transfer/utils/io.py
+(L) /style-transfer/model.py
+(M) /style-transfer/transfer.py
+
+[1] GENERAL NOTICE WITH RESPECT TO THE FILES (A)-(M):
+
+THE ORIGINAL COPYRIGHT NOTICE AND PERMISSION NOTICE FOR THESE FILES AVAILABLE HERE IS REPRODUCE BELOW:
+https://github.com/wasidennis/AdaptSegNet
+
+Paper:
+Learning to Adapt Structured Output Space for Semantic Segmentation
+Yi-Hsuan Tsai*, Wei-Chih Hung*, Samuel Schulter, Kihyuk Sohn, Ming-Hsuan Yang and Manmohan Chandraker
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018 (spotlight) (* indicates equal contribution).
+
+Acknowledgment:
+This code is heavily borrowed from Pytorch-Deeplab [https://github.com/speedinghzl/Pytorch-Deeplab].
+
+Note:
+The model and code are available for non-commercial research purposes only.
+
+[2] SPECIFIC NOTICE WITH RESPECT TO THE FILES (A)-(M):
+
+(A) /deeplab.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/wasidennis/AdaptSegNet/blob/master/model/deeplab.py
+
+(B) /dataset/cityscapes_dataset.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/wasidennis/AdaptSegNet/blob/master/dataset/cityscapes_dataset.py
+
+(C) /dataset/gta5_dataset.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/wasidennis/AdaptSegNet/blob/master/dataset/gta5_dataset.py
+
+(D) /metrics_helpers.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/wasidennis/AdaptSegNet/blob/master/compute_iou.py
+
+(E) /train_on_source.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/wasidennis/AdaptSegNet/blob/master/train_gta2cityscapes_multi.py
+
+(F) /image_helpers.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/wasidennis/AdaptSegNet/blob/master/evaluate_cityscapes.py
+
+(G) /dataset/cityscapes_list/info.json: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/wasidennis/AdaptSegNet/blob/master/dataset/cityscapes_list/info.json
+
+(H) /dataset/gta5_list/train.txt: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/wasidennis/AdaptSegNet/blob/master/dataset/gta5_list/train.txt
+
+(I) /utils/loss.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/wasidennis/AdaptSegNet/blob/master/utils/loss.py
+
+(J) /style-transfer/utils/core.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/NVIDIA/FastPhotoStyle/blob/master/photo_wct.py
+
+(K) /style-transfer/utils/io.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/NVIDIA/FastPhotoStyle/blob/master/photo_wct.py
+
+(L) /style-transfer/model.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/clovaai/WCT2/blob/master/model.py
+
+(M) /style-transfer/transfer.py: This software is being redistributed in a modified form. The original form is available here:
+https://github.com/clovaai/WCT2/blob/master/transfer.py
+
+----------------------------------------------------------------
+PART 2: SEE NOTICES BELOW WITH RESPECT TO THE FOLLOWING DATASETS:
+----------------------------------------------------------------
+
+The following datasets, which are not being distributed herewith, were used to train one or more of the models distributed with the software:
+
+(A) ACDC Dataset: see https://acdc.vision.ee.ethz.ch
+made available under the following license: https://acdc.vision.ee.ethz.ch/license
+
+(B) Cityscapes Dataset: see https://www.cityscapes-dataset.com/
+made available under the following license: https://www.cityscapes-dataset.com/license/
+
+(C) SYNTHIA Dataset: see http://synthia-dataset.net/
+made available under the following license: http://synthia-dataset.net/terms-of-use/
+
+(D) GTA5 Dataset: see https://playing-for-benchmarks.org/
+made available under the following license: https://playing-for-benchmarks.org/download/
+Also see: "Playing for Benchmarks", by Stephan R. Richter, Zeeshan Hayder, Vladlen Koltun, published on arXiv as 1709.07322.
+
+
