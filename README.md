@@ -44,6 +44,17 @@ opencv-3.4.2
 
 ---
 
+## Pre-trained models
+
+Links to download the models pre-trained on [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/) with different levels of domain randomization. Please, note that models trained on GTA5 are for "research and educational purposes only. Commercial use is prohibited". See our [license file](https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt) for the details.
+
+- [ERM](https://download.europe.naverlabs.com/oasis/erm_model.pth) 
+- [DR1](https://download.europe.naverlabs.com/oasis/dr1_model.pth)
+- [DR2](https://download.europe.naverlabs.com/oasis/dr2_model.pth) (best on validation)
+- [DR3](https://download.europe.naverlabs.com/oasis/dr3_model.pth)
+
+---
+
 ## Train on source
 
 - `train_on_source.py`
@@ -139,17 +150,6 @@ The file `streamlit-app.py` contains the source code for the [Streamlit](https:/
 Some finished experiments must be in the `./adapted-models/PRETRAINED_MODEL_FOLDER/src2trg/TARGET_SEQUENCE/...` directories, otherwise the app will not show any result.
 
 Note: tested on `streamlit-0.74.1`.
-
----
-
-## Pre-trained models
-
-Links to download the models pre-trained on [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/) with different levels of domain randomization. Please, note that models trained on GTA5 are for "research and educational purposes only. Commercial use is prohibited". See our [license file](https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt) for the details.
-
-- [ERM](https://download.europe.naverlabs.com/oasis/erm_model.pth) 
-- [DR1](https://download.europe.naverlabs.com/oasis/dr1_model.pth)
-- [DR2](https://download.europe.naverlabs.com/oasis/dr2_model.pth) (best on validation)
-- [DR3](https://download.europe.naverlabs.com/oasis/dr3_model.pth)
 
 ---
 
