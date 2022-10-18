@@ -3,7 +3,7 @@
 [![made-with-python](https://img.shields.io/badge/made%20with-python-blue.svg)](https://www.python.org/)
 [![made-with-pytorch](https://img.shields.io/badge/made%20with-pytorch-red.svg)](https://pytorch.org)
 
-A **Pytorch** codebase to support research on **Online Adaptation for Semantic Image Segmentation**.
+A **Pytorch** codebase for research on **Online Adaptation for Semantic Image Segmentation**.
 
 It contains the code to replicate our [CVPR 2022 paper](https://arxiv.org/abs/2203.16195)'s experiments.
 
